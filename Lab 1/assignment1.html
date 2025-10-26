@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <!-- Accessibility: Skip to main content -->
+    <a href="#main" style="position:absolute; left:-999px; top:auto;">Skip to main content</a>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h2>Welcome!</h2>
+        <p>Hi, I'm Shivi Saxena, a B.Tech 1st year student learning web development. This is my first portfolio website built with HTML.</p>
+    </section>
+
+    <!-- Main Content -->
+    <main id="main">
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="https://www.shutterstock.com/image-vector/user-profile-flat-style-design-vector-2400153263" alt="My profile picture" width="200">
+            <p>Hello! I'm passionate about technology and love learning new things. I'm currently exploring HTML, CSS, and JavaScript.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <article>
+                        <h3>Project 1: Personal Website</h3>
+                        <p>A simple webpage that introduces who I am and what I do.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Project 2: To-Do List App</h3>
+                        <p>A basic app to add and manage daily tasks using HTML and JavaScript.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Project 3: Calculator</h3>
+                        <p>A small calculator project to perform basic arithmetic operations.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Tools / Technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Frontend</td>
+                        <td>HTML, CSS, JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>Programming</td>
+                        <td>C, Python</td>
+                    </tr>
+                    <tr>
+                        <td>Version Control</td>
+                        <td>Git, GitHub</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required placeholder="Type your message here"></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 My Portfolio | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
