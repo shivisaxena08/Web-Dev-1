@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shivi Saxena — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">My Portfolio</div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1 class="greeting">Hi, I am</h1>
+        <h2 class="big-title" aria-label="Student Developer">Student Developer</h2>
+        <p class="hero-sub">
+          Building small projects, learning HTML, CSS & JavaScript. B.Tech 1st year student
+          eager to grow as a web developer.
+        </p>
+      </div>
+
+      <div class="hero-image" aria-hidden="false">
+        <img src="profile.jpg" alt="Profile photo of Shivi Saxena" />
+      </div>
+    </div>
+  </section>
+
+  <main id="main" tabindex="-1">
+    <div class="container">
+
+      <section id="about" class="about section">
+        <h3 class="section-title">About Me</h3>
+        <p>
+          Hello! I'm <strong>Shivi Saxena</strong>, a B.Tech 1st year student learning web development.
+          I enjoy building small projects to practice HTML, CSS, and JavaScript. I'm disciplined,
+          curious, and always ready to learn new things.
+        </p>
+      </section>
+
+      <section id="skills" class="skills section">
+        <h3 class="section-title">My Skills</h3>
+
+        <div class="skills-grid" role="list">
+          <div class="skill-card" role="listitem">
+            <h4>HTML</h4>
+            <small>Beginner</small>
+          </div>
+
+          <div class="skill-card" role="listitem">
+            <h4>CSS</h4>
+            <small>Beginner</small>
+          </div>
+
+          <div class="skill-card" role="listitem">
+            <h4>JavaScript</h4>
+            <small>Learning</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h3 class="section-title">My Projects</h3>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <h4>Project 1</h4>
+            <p class="project-desc">A simple HTML & CSS webpage demonstrating layout and styling.</p>
+          </article>
+
+          <article class="project-card">
+            <h4>Project 2</h4>
+            <p class="project-desc">A mini to-do app using JavaScript to add and remove tasks.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <h3 class="section-title">Contact Me</h3>
+
+        <form class="contact-form" action="#" method="post" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required placeholder="Enter your name" />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="Enter your email" />
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Write your message"></textarea>
+          </div>
+
+          <div class="form-row">
+            <button type="submit" class="btn-primary">Send</button>
+          </div>
+        </form>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Shivi Saxena. All rights reserved.</p>
+      <a class="back-to-top" href="#hero" aria-label="Back to top">↑ Back to Top</a>
+    </div>
+  </footer>
+</body>
+</html>
