@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fashion E-Commerce</title>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<header class="topbar">
+    <div class="top-left">
+        <span class="brand-name">FASHIONISTA</span>
+        <div class="search-area">
+            <input type="text" placeholder="Search for products...">
+        </div>
+    </div>
+
+    <div class="menu-toggle" id="menuToggle">☰</div>
+
+    <div class="top-right" id="menuPanel">
+        <a href="#" class="icon-btn" title="Cart">🛒</a>
+        <a href="#" class="icon-btn" title="Profile">👤</a>
+        <a href="#" class="login-btn">Login</a>
+    </div>
+</header>
+
+
+<!-- Hero -->
+<section class="banner">
+    <div class="banner-layer"></div>
+    <div class="banner-text">
+        <h1>Summer Sale is Here!</h1>
+        <p>Up to 50% off on selected styles. Refresh your wardrobe with the latest trends.</p>
+        <button class="shop-btn">Shop Now</button>
+    </div>
+</section>
+
+
+<!-- Flash Sale -->
+<section class="hot-strip">
+    <p>⚡ Flash Sale: Extra 20% OFF! Ends in</p>
+    <div class="timer">
+        <span>02</span>:<span>15</span>:<span>42</span>
+    </div>
+</section>
+
+
+<!-- Body Layout -->
+<div class="layout-box">
+
+    <!-- Filters -->
+    <aside class="filter-box">
+        <h3>Filters</h3>
+
+        <div class="filter-section">
+            <strong>Category</strong>
+            <label><input type="checkbox"> Men</label>
+            <label><input type="checkbox"> Women</label>
+            <label><input type="checkbox"> Accessories</label>
+        </div>
+
+        <div class="filter-section">
+            <strong>Price</strong>
+            <label><input type="checkbox"> Under $50</label>
+            <label><input type="checkbox"> $50 - $100</label>
+            <label><input type="checkbox"> $100+</label>
+        </div>
+
+        <div class="filter-section">
+            <strong>Color</strong>
+            <label><input type="checkbox"> Black</label>
+            <label><input type="checkbox"> White</label>
+            <label><input type="checkbox"> Blue</label>
+        </div>
+    </aside>
+
+
+    <!-- Main Content -->
+    <main class="store-content">
+
+        <!-- Categories -->
+        <section>
+            <div class="cat-grid">
+
+                <div class="cat-item">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80">
+                    <p>Men</p>
+                </div>
+
+                <div class="cat-item">
+                    <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=200&q=80">
+                    <p>Women</p>
+                </div>
+
+                <div class="cat-item">
+                    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=200&q=80">
+                    <p>Accessories</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section>
+            <div class="items-grid">
+
+                <div class="item-card">
+                    <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80">
+                    <h4>Classic Denim Jacket</h4>
+                    <span class="price">$79.99</span>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="item-card">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80">
+                    <h4>Men's White Sneakers</h4>
+                    <span class="price">$59.99</span>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="item-card">
+                    <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80">
+                    <h4>Women's Summer Dress</h4>
+                    <span class="price">$49.99</span>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="item-card">
+                    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80">
+                    <h4>Leather Handbag</h4>
+                    <span class="price">$120.00</span>
+                    <button>Add to Cart</button>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Best Sellers -->
+        <section class="featured">
+            <h2>Best Sellers</h2>
+            <div class="items-grid">
+
+                <div class="item-card">
+                    <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80">
+                    <h4>Denim Jacket</h4>
+                    <span class="price">$79.99</span>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="item-card">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80">
+                    <h4>White Sneakers</h4>
+                    <span class="price">$59.99</span>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="item-card">
+                    <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80">
+                    <h4>Summer Dress</h4>
+                    <span class="price">$49.99</span>
+                    <button>Add to Cart</button>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Testimonials -->
+        <section class="review-box">
+            <h2>What Our Customers Say</h2>
+            <div class="review-grid">
+
+                <div class="review-item">
+                    <img class="avatar" src="https://randomuser.me/api/portraits/women/44.jpg">
+                    <h4>Emily R.</h4>
+                    <p>"Absolutely love the quality and fast shipping! My new favorite store."</p>
+                </div>
+
+                <div class="review-item">
+                    <img class="avatar" src="https://randomuser.me/api/portraits/men/32.jpg">
+                    <h4>James K.</h4>
+                    <p>"Great selection and amazing deals. The flash sale was a steal!"</p>
+                </div>
+
+                <div class="review-item">
+                    <img class="avatar" src="https://randomuser.me/api/portraits/women/65.jpg">
+                    <h4>Sophia L.</h4>
+                    <p>"Customer service was super helpful. Will definitely shop again."</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Newsletter -->
+        <section class="mail-box">
+            <h2>Stay in the Loop!</h2>
+            <p>Sign up for exclusive offers, new arrivals, and more.</p>
+
+            <form>
+                <input type="email" required placeholder="Your email address">
+                <button>Subscribe</button>
+            </form>
+        </section>
+
+    </main>
+</div>
+
+
+<!-- Footer -->
+<footer class="bottom-footer">
+    <div class="foot-col">
+        <h4>Account</h4>
+        <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Order History</a></li>
+            <li><a href="#">Wishlist</a></li>
+        </ul>
+    </div>
+
+    <div class="foot-col">
+        <h4>Help</h4>
+        <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">FAQs</a></li>
+        </ul>
+    </div>
+
+    <div class="foot-col">
+        <h4>Policies</h4>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+        </ul>
+    </div>
+
+    <div class="foot-col">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+            <a href="#">📸</a>
+            <a href="#">📘</a>
+            <a href="#">🐦</a>
+            <a href="#">📌</a>
+        </div>
+    </div>
+
+    <div class="footer-end">
+        &copy; 2024 Fashionista. All rights reserved.
+    </div>
+</footer>
+
+</body>
+</html>
